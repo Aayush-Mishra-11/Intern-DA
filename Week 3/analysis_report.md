@@ -85,7 +85,15 @@ Phone         2859394
 Tablet        2884340
 Name: Revenue, dtype: int64
 Best-selling product: Laptop
+Total Revenue: 12365048
+Average Revenue per Order: 123650.48
+Total Quantity Sold: 478
 
+Sales Analysis Report
+Total Revenue: $12,365,048.00
+Average Revenue per Order: $123,650.48
+Total Quantity Sold: 478
+Best-selling product: Laptop
 
 ## 1. Dataset Overview
 

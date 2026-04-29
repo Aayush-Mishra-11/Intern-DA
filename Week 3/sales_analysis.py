@@ -38,4 +38,20 @@ revenue_by_product = df.groupby('Product')['Revenue'].sum()
 print(revenue_by_product)
 
 best_selling_product = revenue_by_product.idxmax()
-print(f"Best-selling product: {best_selling_product}")
+
+#--------------------------------------------------------------------
+#Calculate at least 3 different metrics
+total_revenue = df['Revenue'].sum()
+average_revenue_per_order = df['Revenue'].mean() # for average revenue per order
+total_quantity_sold = df['Quantity'].sum() # for total quantity sold across all products
+print(f"Total Revenue: {total_revenue}") # for total revenue generated from sales
+print(f"Average Revenue per Order: {average_revenue_per_order}") # for average revenue per order
+print(f"Total Quantity Sold: {total_quantity_sold}") # for total quantity sold across all products
+
+#--------------------------------------------------------------------
+#Create a clean, formatted report\
+print("\nSales Analysis Report") # for a clean, formatted report
+print(f"Total Revenue: ${total_revenue:,.2f}") # for total revenue generated from sales with formatting
+print(f"Average Revenue per Order: ${average_revenue_per_order:,.2f}") # for average revenue per order with formatting
+print(f"Total Quantity Sold: {total_quantity_sold:,}") # for total quantity sold across all products with formatting
+print(f"Best-selling product: {best_selling_product}") # for best-selling product
