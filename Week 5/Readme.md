@@ -1,4 +1,4 @@
- # --- Customer Sales Analysis Report ---
+ # Week 5 Customer Sales Analysis Report ---
  
   Data Exploration:
   - Loaded both sales_data.csv and customer_churn.csv
