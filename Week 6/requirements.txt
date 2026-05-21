@@ -1,0 +1,4 @@
+# Data Visualization Requirements
+pandas
+matplotlib
+seaborn
