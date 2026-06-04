@@ -1,4 +1,4 @@
-Week 7: Introduction to Statistics for Data Science
+# Week 7: Introduction to Statistics for Data Science
 In this week, we will cover the basics of statistics for data science. We will learn about descriptive statistics, inferential statistics, and how to apply these concepts to real-world data.
 
 Topics Covered:
