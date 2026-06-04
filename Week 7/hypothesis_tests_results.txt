@@ -1,0 +1,39 @@
+======================================================================
+HYPOTHESIS TESTS RESULTS
+======================================================================
+
+Test 1: Independent T-Test
+Question: Churn vs Monthly Charges
+P-value: 0.016303
+Significant (a=0.05): Yes
+Conclusion: Significant difference in monthly charges between churned and non-churned customers
+--------------------------------------------------
+
+Test 2: Independent T-Test
+Question: Churn vs Tenure
+P-value: 0.000000
+Significant (a=0.05): Yes
+Conclusion: Significant difference in tenure between churned and non-churned customers
+--------------------------------------------------
+
+Test 3: One-Way ANOVA
+Question: Sales by Product Category
+P-value: 0.093428
+Significant (a=0.05): No
+Conclusion: No significant difference in sales across product categories
+--------------------------------------------------
+
+Test 4: One-Sample T-Test
+Question: Monthly Charges vs $100
+P-value: 0.000000
+Significant (a=0.05): Yes
+Conclusion: Average monthly charges significantly differs from hypothesized $100
+--------------------------------------------------
+
+Test 5: Independent T-Test
+Question: East vs West Sales
+P-value: 0.049619
+Significant (a=0.05): Yes
+Conclusion: Significant difference in sales between East and West regions
+--------------------------------------------------
+
