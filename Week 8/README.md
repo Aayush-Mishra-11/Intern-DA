@@ -4,15 +4,12 @@
 
 This project demonstrates a complete data analysis workflow for understanding and reducing customer churn.
 
----
-
 ## Project Overview
 
 **Business Problem:** Identify why customers churn and develop data-driven retention strategies to reduce the 10.6% churn rate.
 
 **Dataset:** 500 customers with 9 features including tenure, charges, contract type, and payment methods.
 
----
 
 ## Project Structure
 
