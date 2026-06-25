@@ -1,0 +1,5 @@
+Segment,Samples,Accuracy,Precision,Recall,F1_Score,ROC_AUC,Best_Params
+Mid-Spend Traditional Users,125,0.8438,0.4286,0.75,0.5455,0.9643,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}"
+Senior Digital Switchers,119,0.9333,0.0,0.0,0.0,0.8571,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
+Senior Legacy Non-Paperless,130,1.0,1.0,1.0,1.0,1.0,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}"
+Young Digital Customers,126,1.0,1.0,1.0,1.0,1.0,"{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}"
